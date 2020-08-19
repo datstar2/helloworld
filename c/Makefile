@@ -1,4 +1,4 @@
-hello ; hello.o main.o
+hello : hello.o main.o
 	gcc -o hello hello.o main.o
 
 hello.o : hello.c
